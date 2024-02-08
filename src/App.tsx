@@ -33,6 +33,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '*',
+    element: <h1>test</h1>,
+  },
 ]);
 
 export default function App() {
