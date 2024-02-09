@@ -8,10 +8,7 @@ export default function Leistungen() {
     <>
       <header className='hidden lg:flex'>
         <div className='relative w-1/3'>
-          <img
-            src={kontinuierliche}
-            className=''
-          />
+          <img src={kontinuierliche} />
           <div className='absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center font-bold'>
             <h2 className='text-3xl px-2 text-white'>Kontinuierliche Betreuung</h2>
             <h6 className='text-lg px-2 text-white '>Bei uns stehen Sie an erster Stelle</h6>
@@ -19,10 +16,7 @@ export default function Leistungen() {
         </div>
 
         <div className='relative w-1/3'>
-          <img
-            src={behandlung}
-            className=''
-          />
+          <img src={behandlung} />
           <div className='absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center font-bold'>
             <h2 className='text-3xl px-2 text-white'> Behandlung und Therapie</h2>
             <h6 className='text-lg px-2 text-white '>Patientenzentrierte Behandlung</h6>
@@ -30,10 +24,7 @@ export default function Leistungen() {
         </div>
 
         <div className='relative w-1/3'>
-          <img
-            src={beurteilung}
-            className=''
-          />
+          <img src={beurteilung} />
           <div className='absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center font-bold'>
             <h2 className='text-3xl px-2 text-white'> Beurteilung und Diagnose</h2>
             <h6 className='text-lg px-2 text-white '>Die Techniken, die Sie benötigen</h6>
